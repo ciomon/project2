@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>뚜레쥬르</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/slide.css" />
+    <link rel="stylesheet" href="/js/toures.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./favicon/favicon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner_first">
+          <div class="top_menu">
+            <div class="service_center">
+              <div class="position">
+                <ul>
+                  <li class="tel_sc">
+                    고객센터
+                    <span>157-608</span>
+                  </li>
+                  <li class="community_btn">
+                    <a href="#" class="click">
+                      <img
+                        src="./img/top_r_menu_icon_01_b.png"
+                        alt="메뉴 아이콘입니다."
+                      />커뮤니티
+                    </a>
+
+                    <div class="all_community">
+                      <div class="community">
+                        <ul>
+                          <li><a href="#">1:1문의</a></li>
+                          <li><a href="#">자주묻는질문</a></li>
+                          <li><a href="#">EVENT</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="empty"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="right_area">
+              <div class="right_menu">
+                
+                <div class="view">
+                  <div class="search_all">
+                    <fieldset>
+                      <legend></legend>
+                      <form action="#" method="get">
+                        <label for="prod_name">
+                          <a href="#"><img src="./img/search.png" alt="검색버튼" /> </a>
+                          <input
+                            type="text"
+                            class="prod_name"
+                            title="제품명 입력"
+                            placeholder="제품명을 입력해주세요."
+                            id="prod_name"
+                          />
+                        </label>
+                      </form>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="find_btn"></div>
+          </div>
+          <ul class="product">
+            <li class="login"><a href="#">로그인</a></li>
+            <li class="join"><a href="#">회원가입</a></li>
+            <li class="basket"><a href="#">장바구니</a></li>
+            <li class="order_list"><a href="#">주문목록</a></li>
+            <li class="mypage"><a href="#">마이페이지</a></li>
+          </ul>
+        </div>
+        <div id="nav">
+          <div class="logo">
+            <a href="#"><img src="./img/logo.png" alt="" /></a>
+          </div>
+          <ul class="gnb cf">
+            <li class="fl">
+              <a href="#">뚜레쥬르</a>
+              <ul class="depth2">
+                <li><a href="#">STORY</a></li>
+                <li><a href="#">재료 이야기</a></li>
+                <li><a href="#">광고이야기</a></li>
+                <li><a href="#">착한빵 이야기</a></li>
+                <li><a href="#">뉴스 & 공지사항</a></li>
+              </ul>
+            </li>
+            <li class="fl">
+              <a href="#">SHOP</a>
+              <ul class="depth2">
+                <li><a href="#">신제품</a></li>
+                <li><a href="#">빵</a></li>
+                <li><a href="#">케이크</a></li>
+                <li><a href="#">델리</a></li>
+                <li><a href="#">선물</a></li>
+                <li><a href="#">디저트&스낵</a></li>
+                <li><a href="#">음료</a></li>
+              </ul>
+            </li>
+            <li class="fl">
+              <a href="#">EVENT</a>
+              <ul class="depth2">
+                <li><a href="#">진행중인 이벤트</a></li>
+                <li><a href="#">이벤트 당첨자</a></li>
+                <li><a href="#">CJ ONE 멤버십</a></li>
+                <li><a href="#">제휴 혜택</a></li>
+              </ul>
+            </li>
+            <li class="fl">
+              <a href="#">배송 신청</a>
+              <ul class="depth2">
+                <li><a href="#">예약/픽업</a></li>
+                <li><a href="#">제품 신청</a></li>
+                <li><a href="#">배달 신청</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <section id="section">
+        <div class="main_visual">
+          <ul>
+            <li class="main_img">
+              <img src="./img/img_main2.jpg" alt="메인배너입니다." />
+            </li>
+          </ul>
+        </div>
+        <div class="area_container">
+          <div class="area_content">
+            <div class="section1">
+              <div class="mainslider">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#"
+                        ><img
+                          src="./img/2022-6-28_event.jpg"
+                          alt="이벤트1번입니다."
+                      /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"
+                        ><img
+                          src="./img/2022-7-18_event(2).jpg"
+                          alt="이벤트2번입니다."
+                      /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"
+                        ><img
+                          src="./img/2022-8-5_event.jpg"
+                          alt="이벤트3번입니다."
+                      /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"
+                        ><img
+                          src="./img/2022-3-31_event.png"
+                          alt="이벤트4번입니다."
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+
+              <div class="mainslider2">
+                <div id="container">
+                  <ul class="sub_prodlist">
+                    <li><h1>신상품 목록</h1></li>
+                  </ul>
+                  <ul class="prod-list">
+                    <li>
+                      <img src="./img/c-1.png" alt="퐁신퐁신 우유도넛" />
+                      <div class="caption">
+                        <h3>퐁신퐁신 우유 도넛</h3>
+                        <p>
+                          폭신한 도넛 속 달콤한 바닐라우유크림을 <br />
+                          가득 샌드한 제품
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./img/c-9.png" alt="초당 옥수수 케이크" />
+                      <div class="caption">
+                        <h4>초당 옥수수 케이크</h4>
+                        <p>
+                          옥수수 시트 사이 고소한 옥수수 크림과<br />
+                          부드러운 순우유 크림이 샌드된 생크림 케이크
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./img/c-7.png" alt="수박스무디" />
+                      <div class="caption">
+                        <h4>수박스무디</h4>
+                        <p>
+                          국내산 제철 수박을 착즙 베이스를<br />
+                          가득담아 여름철 더위를 시원하게 식혀줄 시원한 수분충전
+                          스무디
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./img/c-6.png" alt="초코 브라우니 쿠키세트" />
+                      <div class="caption">
+                        <h4>초코 브라우니 쿠키세트</h4>
+                        <p>
+                          진한 초콜릿 풍미를 입안 가득 느낄 수 있는<br />
+                          쫀득, 촉촉, 부드러운 초코 브라우니 쿠키
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./img/c-5-1.png" alt="초코숲속 재배노움" />
+                      <div class="caption">
+                        <h4>초코숲속 재배노움</h4>
+                        <p>
+                          제품설명 진한 초코 가나슈와 초코 크림을 샌드한 초코
+                          케익<br />
+                          그 속에 재배된 설탕노움이 포인트인 쿠키런 킹덤 콜라보
+                          케이크
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./img/c-10.png" alt="그릴치킨 오렌지 샐러드" />
+                      <div class="caption">
+                        <h4>그릴치킨 오렌지 샐러드</h4>
+                        <p>
+                          제품설명 담백한 닭가슴살을 가득 넣고 시트러스한
+                          오렌지와 유자 오리엔탈 드레싱으로 입맛을 돋운 단백질
+                          든든 볼샐러드
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="shop_mall">
+                <a href="#"><img src="./img/img_banner4.png" alt="" /></a>
+              </div>
+
+              <div class="fr_mainslider2">
+                <span class="pr_recomm"> </span>
+              </div>
+
+              <div class="box_wrapper">
+                <span class="pd_recomm"> </span>
+              </div>
+
+              <div class="fresh_talk">
+                <a href="#"><img src="./img/img_banner5.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="section2">
+              <div class="floatleft">
+                <div class="store_find">
+                  <h2 class="hidden">찾기</h2>
+                  <p class="hidden">찾기</p>
+                  <fieldset class="search_form">
+                    <legend class="legend"></legend>
+                    <form action="#" method="get">
+                      <label>
+                        <input
+                          type="text"
+                          class="search02"
+                          placeholder="매장명이나 시/군/구 명 입력"
+                        />
+                      </label>
+                      <input
+                        type="image"
+                        class="srch_img"
+                        src="./img/btn_search.png"
+                        alt="검색버튼"
+                      />
+                    </form>
+                  </fieldset>
+                </div>
+              </div>
+              <div class="floatright">
+                <div class="discount">
+                  <a href="#"><img src="./img/img_banner6.jpg" alt="" /></a>
+                  <div class="notice">
+                    <div class="tit">
+                      <span class="txt">
+                        <img
+                          src="./img/tit_notice_news.png"
+                          alt="News&Notice"
+                        />
+                      </span>
+                    </div>
+                    <div class="list">
+                      <ul>
+                        <li>
+                          <a href="#"
+                            >2022년 뚜레쥬르X유미의세포들 콜라보 굿즈[텀블러]
+                            출시 안내</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            >2022년 여름시즌 홍콩여행 럭키티켓 응모 이벤트
+                            안내</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            >2022년 가정의달 플랜트러브 장바구니 출시 안내</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <span class="btn">
+                      <a href="#"
+                        ><img src="./img/common.png" alt="더보기" />더보기</a
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section3">
+              <div class="floatleft">
+                <a class="banner1" href="#"
+                  ><img src="./img/img_banner1.jpg" alt=""
+                /></a>
+                <a class="banner2" href="#"
+                  ><img src="./img/img_banner2.jpg" alt=""
+                /></a>
+
+               
+                
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="family_site">
+          <div class="family_wrap">
+            <div class="wraplist">
+              <ul>
+                <li>
+                  <a href="#" class="foodville" target="_blank"></a>
+                  <a class="vips" href="#" target="_blank"></a>
+                  <a class="theplace" href="#" target="_blank"></a>
+                  <a class="jaeil" href="#" target="_blank"></a>
+                  <a class="ngrill" href="#" target="_blank"></a>
+                  <a class="cjfoodworld" href="#" target="_blank"></a>
+                  <a class="seoultower" href="#" target="_blank"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer_wrap">
+          <ul>
+            <li>
+              <ul class="fnb">
+                <li><a href="#" class="company">회사소개</a></li>
+                <li><a href="#" class="recruit">기사채용안내</a></li>
+                <li><a href="#" class="foundation">이용약관</a></li>
+                <li><a href="#" class="location">위치기반서비스</a></li>
+                <li><a href="#" class="clause">창업안내</a></li>
+                <li><a href="#" class="privacy">개인정보처리방침</a></li>
+                <li><a href="#" class="email">이메일무단수집거부</a></li>
+                <li><a href="#" class="ethic">윤리신고센터</a></li>
+                <li><a href="#" class="legal">법적고지</a></li>
+                <li><a href="#" class="sitemap">사이트맵</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <div class="info">
+                <span class="business-name">상호명:뚜레쥬르</span>
+                <span class="address">
+                  주소:(우)111111 서울시 중구 마른내로34(초동
+                  106-9번지)KT&G을지로타워 3, 9-11층 뚜레쥬르</span>
+                <span class="cs-center">고객센터:157-608</span>
+                <span class="email">대표 이메일:help_me please</span>
+              </div>
+            </li>
+            <p class="copyright">
+              COPYRIGHT 2022©CJ Foodville ALL RIGHT RESERVED.
+            </p>
+          </ul>
+        </div>
+      </footer>
+      <p class="to_top"><a href="#top" class="s_point">TOP</a></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+    <script></script>
+    <script></script>
+  </body>
+</html>

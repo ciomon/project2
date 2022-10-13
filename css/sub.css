@@ -1,0 +1,109 @@
+#wrap {
+  position: relative;
+  min-width: 1000px;
+  width: 100%;
+}
+
+#header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 147px;
+  z-index: 110;
+}
+
+.pagetop {
+  position: relative;
+  top: 147px;
+  left: 0;
+  margin: 0 auto;
+  width: 1000px;
+  z-index: 0;
+}
+
+.path {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  padding: 14px 0 10px 0;
+  text-align: right;
+  z-index: 1;
+}
+
+.path li{
+    display: inline-block;
+}
+
+path a:first-child{
+    padding-left: 0;
+    background: none;
+}
+
+.path a{
+    display: inline-block;
+    padding-left: 17px; 
+    height: 14px;
+    font-size: 14px;
+    color: #666;
+    background: url(../img/arrow_path.png) 7px 3px no-repeat;
+}
+
+.page_title{
+    position: relative;
+    padding: 39px 0 0 17px;
+    max-width: 230px;
+    text-align: left;
+    z-index: 10;
+}
+
+.tit_story{
+    background-position: 0px 0px;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    background: url(../img/page_title.png) no-repeat left top;
+    text-indent: -999em;
+}
+
+#nav {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(180deg, #0d4633 50px, #357661 51px);
+    height: 50px;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  #nav:hover {
+    height: 400px;
+  }
+
+  .gnb {
+    width: 1600px;
+    margin: auto;
+    position: relative;
+    z-index: 13;
+    font-size: 16px;
+  }
+  .gnb a {
+    color: black;
+  }
+  .gnb li {
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .gnb > li > a {
+    color: #fff;
+  }
+
+  #nav:hover {
+    height: 400px;
+  }
+  ul {
+    list-style: none;
+  }
+
